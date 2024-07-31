@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.content {
+    margin-top: 8%; /* Space from the top if needed */
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* Style the table */
+table {
+    border-collapse: collapse; /* Merge borders for cleaner look */
+    width: 100%; /* Adjust width as needed */
+    border: 2px solid black; /* Border around the table */
+    
+}
+
+th, td {
+    border: 1px solid black; /* Border around table cells */
+    padding: 8px; /* Space inside cells */
+    text-align: center; /* Align text to the left */
+}
+
+th {
+    background-color: #f2f2f2; /* Light gray background for header cells */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternating row colors */
+}
+
+tr:hover {
+    background-color: #ddd; /* Highlight row on hover */
+}
+
+form {
+    margin-top: 20px;
+}

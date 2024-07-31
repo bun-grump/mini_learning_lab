@@ -1,0 +1,84 @@
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+*.env
+*.venv
+*.pytest_cache/
+*.mypy_cache/
+*.tox/
+*.coverage
+*.coverage.*
+nosetests.xml
+*.hypothesis/
+.pytest_cache/
+*.tox/
+*.nox/
+*.coverage
+*.coverage.*
+*.py,pyc
+*.py,swp
+*.py,orig
+*.py,rej
+
+# Node.js specific
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+target/
+build/
+*.log
+
+# Ruby specific
+.bundle/
+log/
+tmp/
+*.gem
+*.rbc
+.ruby-version
+.ruby-gemset
+
+# Go specific
+bin/
+*.test
+*.out
+vendor/
+
+# JavaScript specific
+dist/
+build/
+*.log
+
+# Environment configuration files
+*.env
+.env.local
+.env.*.local
+.env.test
+.env.development
